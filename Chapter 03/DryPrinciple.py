@@ -1,6 +1,7 @@
 # Game
 import random
-winning_number = 43;
+winning_number = random.randint(1, 100);
+print(winning_number)
 guess_count = 1;
 num = int(input("Guess a number between 1 and 100"));
 game_over = False
